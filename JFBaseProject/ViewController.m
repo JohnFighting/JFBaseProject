@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "JFNewsNetManager.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [JFNewsNetManager getNewsListWithStartIndex:11 completionHandle:^(id model, NSError *error) {
+        if (!error) {
+            NSLog(@"model %@", model);
+        }
+    }];
 }
 
 - (void)didReceiveMemoryWarning {

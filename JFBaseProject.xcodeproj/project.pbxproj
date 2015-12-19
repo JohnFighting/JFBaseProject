@@ -13,6 +13,15 @@
 		1B02F1061C2582050012490A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B02F1041C2582050012490A /* Main.storyboard */; };
 		1B02F1081C2582050012490A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B02F1071C2582050012490A /* Assets.xcassets */; };
 		1B02F10B1C2582050012490A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B02F1091C2582050012490A /* LaunchScreen.storyboard */; };
+		1B02F1221C2586F90012490A /* JFBaseViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1211C2586F90012490A /* JFBaseViewModel.m */; };
+		1B02F1251C2587370012490A /* JFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1241C2587370012490A /* JFBaseViewController.m */; };
+		1B02F1281C2587950012490A /* JFBaseNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1271C2587950012490A /* JFBaseNetManager.m */; };
+		1B02F12B1C2588040012490A /* JFBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F12A1C2588040012490A /* JFBaseModel.m */; };
+		1B02F12E1C2588200012490A /* JFFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F12D1C2588200012490A /* JFFactory.m */; };
+		1B02F1331C2588C50012490A /* AppDelegate+JFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1321C2588C50012490A /* AppDelegate+JFCategory.m */; };
+		1B02F1371C258B470012490A /* NSObject+JFNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1361C258B470012490A /* NSObject+JFNetWork.m */; };
+		1B02F13A1C258D6C0012490A /* JFNewsNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1391C258D6C0012490A /* JFNewsNetManager.m */; };
+		5DB1F46ABCFC9FE0F2C1725C /* libPods-JFBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09FB976F33649F5EB433BA /* libPods-JFBaseProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +29,37 @@
 		1B02F0FC1C2582050012490A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B02F0FE1C2582050012490A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B02F0FF1C2582050012490A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B02F1011C2582050012490A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B02F1021C2582050012490A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B02F1011C2582050012490A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = JFBaseProject/ViewController.h; sourceTree = SOURCE_ROOT; };
+		1B02F1021C2582050012490A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = JFBaseProject/ViewController.m; sourceTree = SOURCE_ROOT; };
 		1B02F1051C2582050012490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B02F1071C2582050012490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B02F1071C2582050012490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		1B02F10A1C2582050012490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B02F10C1C2582050012490A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B02F11C1C2586050012490A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1B02F1201C2586F90012490A /* JFBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBaseViewModel.h; sourceTree = "<group>"; };
+		1B02F1211C2586F90012490A /* JFBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBaseViewModel.m; sourceTree = "<group>"; };
+		1B02F1231C2587370012490A /* JFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBaseViewController.h; sourceTree = "<group>"; };
+		1B02F1241C2587370012490A /* JFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBaseViewController.m; sourceTree = "<group>"; };
+		1B02F1261C2587950012490A /* JFBaseNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBaseNetManager.h; sourceTree = "<group>"; };
+		1B02F1271C2587950012490A /* JFBaseNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBaseNetManager.m; sourceTree = "<group>"; };
+		1B02F1291C2588040012490A /* JFBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBaseModel.h; sourceTree = "<group>"; };
+		1B02F12A1C2588040012490A /* JFBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBaseModel.m; sourceTree = "<group>"; };
+		1B02F12C1C2588200012490A /* JFFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFFactory.h; sourceTree = "<group>"; };
+		1B02F12D1C2588200012490A /* JFFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFFactory.m; sourceTree = "<group>"; };
+		1B02F12F1C25884D0012490A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		1B02F1301C25885B0012490A /* Methods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Methods.h; sourceTree = "<group>"; };
+		1B02F1311C2588C50012490A /* AppDelegate+JFCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+JFCategory.h"; sourceTree = "<group>"; };
+		1B02F1321C2588C50012490A /* AppDelegate+JFCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+JFCategory.m"; sourceTree = "<group>"; };
+		1B02F1341C25898F0012490A /* NewsPath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewsPath.h; sourceTree = "<group>"; };
+		1B02F1351C258B470012490A /* NSObject+JFNetWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JFNetWork.h"; sourceTree = "<group>"; };
+		1B02F1361C258B470012490A /* NSObject+JFNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JFNetWork.m"; sourceTree = "<group>"; };
+		1B02F1381C258D6C0012490A /* JFNewsNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNewsNetManager.h; sourceTree = "<group>"; };
+		1B02F1391C258D6C0012490A /* JFNewsNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNewsNetManager.m; sourceTree = "<group>"; };
+		1B4D0AB31C2593D600EF3FFE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		1B4D0AB41C2593D600EF3FFE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3184BA69CD57946012E0D84A /* Pods-JFBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
+		84D37E2498CDCA709BCC4DFC /* Pods-JFBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject.release.xcconfig"; sourceTree = "<group>"; };
+		9C09FB976F33649F5EB433BA /* libPods-JFBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +67,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DB1F46ABCFC9FE0F2C1725C /* libPods-JFBaseProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039A1351FFDD848C99329383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C09FB976F33649F5EB433BA /* libPods-JFBaseProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1B02F0EF1C2582050012490A = {
 			isa = PBXGroup;
 			children = (
 				1B02F0FA1C2582050012490A /* JFBaseProject */,
 				1B02F0F91C2582050012490A /* Products */,
+				5D3C636E05FEC76E7E94C5AE /* Pods */,
+				039A1351FFDD848C99329383 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,12 +105,16 @@
 			children = (
 				1B02F0FE1C2582050012490A /* AppDelegate.h */,
 				1B02F0FF1C2582050012490A /* AppDelegate.m */,
-				1B02F1011C2582050012490A /* ViewController.h */,
-				1B02F1021C2582050012490A /* ViewController.m */,
-				1B02F1041C2582050012490A /* Main.storyboard */,
-				1B02F1071C2582050012490A /* Assets.xcassets */,
-				1B02F1091C2582050012490A /* LaunchScreen.storyboard */,
-				1B02F10C1C2582050012490A /* Info.plist */,
+				1B02F1121C2583430012490A /* Category */,
+				1B02F1131C2583430012490A /* Define */,
+				1B02F1141C2583430012490A /* Factory */,
+				1B02F1151C2583430012490A /* Model */,
+				1B02F1161C2583430012490A /* NetManager */,
+				1B02F1171C2583430012490A /* Resource */,
+				1B02F1181C2583430012490A /* Vendor */,
+				1B02F1191C2583430012490A /* View */,
+				1B02F11A1C2583430012490A /* ViewController */,
+				1B02F11B1C2583430012490A /* ViewModel */,
 				1B02F0FB1C2582050012490A /* Supporting Files */,
 			);
 			path = JFBaseProject;
@@ -74,9 +123,114 @@
 		1B02F0FB1C2582050012490A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B02F10C1C2582050012490A /* Info.plist */,
 				1B02F0FC1C2582050012490A /* main.m */,
+				1B02F11C1C2586050012490A /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B02F1121C2583430012490A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F1311C2588C50012490A /* AppDelegate+JFCategory.h */,
+				1B02F1321C2588C50012490A /* AppDelegate+JFCategory.m */,
+				1B02F1351C258B470012490A /* NSObject+JFNetWork.h */,
+				1B02F1361C258B470012490A /* NSObject+JFNetWork.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		1B02F1131C2583430012490A /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F12F1C25884D0012490A /* Constants.h */,
+				1B02F1301C25885B0012490A /* Methods.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		1B02F1141C2583430012490A /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F12C1C2588200012490A /* JFFactory.h */,
+				1B02F12D1C2588200012490A /* JFFactory.m */,
+			);
+			path = Factory;
+			sourceTree = "<group>";
+		};
+		1B02F1151C2583430012490A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F1291C2588040012490A /* JFBaseModel.h */,
+				1B02F12A1C2588040012490A /* JFBaseModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B02F1161C2583430012490A /* NetManager */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F1341C25898F0012490A /* NewsPath.h */,
+				1B02F1261C2587950012490A /* JFBaseNetManager.h */,
+				1B02F1271C2587950012490A /* JFBaseNetManager.m */,
+				1B02F1381C258D6C0012490A /* JFNewsNetManager.h */,
+				1B02F1391C258D6C0012490A /* JFNewsNetManager.m */,
+			);
+			path = NetManager;
+			sourceTree = "<group>";
+		};
+		1B02F1171C2583430012490A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F1041C2582050012490A /* Main.storyboard */,
+				1B02F1071C2582050012490A /* Assets.xcassets */,
+				1B02F1091C2582050012490A /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		1B02F1181C2583430012490A /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		1B02F1191C2583430012490A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B02F11A1C2583430012490A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F1011C2582050012490A /* ViewController.h */,
+				1B02F1021C2582050012490A /* ViewController.m */,
+				1B02F1231C2587370012490A /* JFBaseViewController.h */,
+				1B02F1241C2587370012490A /* JFBaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1B02F11B1C2583430012490A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F1201C2586F90012490A /* JFBaseViewModel.h */,
+				1B02F1211C2586F90012490A /* JFBaseViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5D3C636E05FEC76E7E94C5AE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3184BA69CD57946012E0D84A /* Pods-JFBaseProject.debug.xcconfig */,
+				84D37E2498CDCA709BCC4DFC /* Pods-JFBaseProject.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1B02F10F1C2582050012490A /* Build configuration list for PBXNativeTarget "JFBaseProject" */;
 			buildPhases = (
+				8BA032E13973016861EB0462 /* Check Pods Manifest.lock */,
 				1B02F0F41C2582050012490A /* Sources */,
 				1B02F0F51C2582050012490A /* Frameworks */,
 				1B02F0F61C2582050012490A /* Resources */,
+				3E35C9C9A2620E37ABA1A862 /* Embed Pods Frameworks */,
+				BEF8DCC94E29E9635B495C9F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -105,6 +262,7 @@
 		1B02F0F01C2582050012490A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JF;
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = john;
 				TargetAttributes = {
@@ -145,14 +303,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E35C9C9A2620E37ABA1A862 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BA032E13973016861EB0462 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BEF8DCC94E29E9635B495C9F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1B02F0F41C2582050012490A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B02F1281C2587950012490A /* JFBaseNetManager.m in Sources */,
 				1B02F1031C2582050012490A /* ViewController.m in Sources */,
 				1B02F1001C2582050012490A /* AppDelegate.m in Sources */,
 				1B02F0FD1C2582050012490A /* main.m in Sources */,
+				1B02F1251C2587370012490A /* JFBaseViewController.m in Sources */,
+				1B02F1331C2588C50012490A /* AppDelegate+JFCategory.m in Sources */,
+				1B02F13A1C258D6C0012490A /* JFNewsNetManager.m in Sources */,
+				1B02F12B1C2588040012490A /* JFBaseModel.m in Sources */,
+				1B02F12E1C2588200012490A /* JFFactory.m in Sources */,
+				1B02F1371C258B470012490A /* NSObject+JFNetWork.m in Sources */,
+				1B02F1221C2586F90012490A /* JFBaseViewModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,16 +377,20 @@
 			isa = PBXVariantGroup;
 			children = (
 				1B02F1051C2582050012490A /* Base */,
+				1B4D0AB31C2593D600EF3FFE /* zh-Hans */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		1B02F1091C2582050012490A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				1B02F10A1C2582050012490A /* Base */,
+				1B4D0AB41C2593D600EF3FFE /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -260,8 +478,10 @@
 		};
 		1B02F1101C2582050012490A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3184BA69CD57946012E0D84A /* Pods-JFBaseProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = JFBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.john.JFBaseProject;
@@ -271,8 +491,10 @@
 		};
 		1B02F1111C2582050012490A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84D37E2498CDCA709BCC4DFC /* Pods-JFBaseProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = JFBaseProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.john.JFBaseProject;
@@ -299,6 +521,7 @@
 				1B02F1111C2582050012490A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
