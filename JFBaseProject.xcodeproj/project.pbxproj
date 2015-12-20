@@ -21,6 +21,10 @@
 		1B02F1331C2588C50012490A /* AppDelegate+JFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1321C2588C50012490A /* AppDelegate+JFCategory.m */; };
 		1B02F1371C258B470012490A /* NSObject+JFNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1361C258B470012490A /* NSObject+JFNetWork.m */; };
 		1B02F13A1C258D6C0012490A /* JFNewsNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1391C258D6C0012490A /* JFNewsNetManager.m */; };
+		1B2CC4F91C26716200BFD449 /* JFCustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC4F81C26716200BFD449 /* JFCustomTabBarViewController.m */; };
+		1B2CC4FC1C267BE600BFD449 /* JFMasonryLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC4FB1C267BE600BFD449 /* JFMasonryLayoutViewController.m */; };
+		1B2CC4FF1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC4FE1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m */; };
+		1B2CC5021C267E9400BFD449 /* JFBlocksKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */; };
 		5DB1F46ABCFC9FE0F2C1725C /* libPods-JFBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09FB976F33649F5EB433BA /* libPods-JFBaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -32,7 +36,7 @@
 		1B02F1011C2582050012490A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = JFBaseProject/ViewController.h; sourceTree = SOURCE_ROOT; };
 		1B02F1021C2582050012490A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = JFBaseProject/ViewController.m; sourceTree = SOURCE_ROOT; };
 		1B02F1051C2582050012490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B02F1071C2582050012490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		1B02F1071C2582050012490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B02F10A1C2582050012490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B02F10C1C2582050012490A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B02F11C1C2586050012490A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
@@ -55,6 +59,14 @@
 		1B02F1361C258B470012490A /* NSObject+JFNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JFNetWork.m"; sourceTree = "<group>"; };
 		1B02F1381C258D6C0012490A /* JFNewsNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNewsNetManager.h; sourceTree = "<group>"; };
 		1B02F1391C258D6C0012490A /* JFNewsNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNewsNetManager.m; sourceTree = "<group>"; };
+		1B2CC4F71C26716200BFD449 /* JFCustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCustomTabBarViewController.h; sourceTree = "<group>"; };
+		1B2CC4F81C26716200BFD449 /* JFCustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCustomTabBarViewController.m; sourceTree = "<group>"; };
+		1B2CC4FA1C267BE600BFD449 /* JFMasonryLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMasonryLayoutViewController.h; sourceTree = "<group>"; };
+		1B2CC4FB1C267BE600BFD449 /* JFMasonryLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMasonryLayoutViewController.m; sourceTree = "<group>"; };
+		1B2CC4FD1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMasonryLayout_V2_ViewController.h; sourceTree = "<group>"; };
+		1B2CC4FE1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMasonryLayout_V2_ViewController.m; sourceTree = "<group>"; };
+		1B2CC5001C267E9400BFD449 /* JFBlocksKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBlocksKitViewController.h; sourceTree = "<group>"; };
+		1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBlocksKitViewController.m; sourceTree = "<group>"; };
 		1B4D0AB31C2593D600EF3FFE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		1B4D0AB41C2593D600EF3FFE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		3184BA69CD57946012E0D84A /* Pods-JFBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,7 +122,6 @@
 				1B02F1141C2583430012490A /* Factory */,
 				1B02F1151C2583430012490A /* Model */,
 				1B02F1161C2583430012490A /* NetManager */,
-				1B02F1171C2583430012490A /* Resource */,
 				1B02F1181C2583430012490A /* Vendor */,
 				1B02F1191C2583430012490A /* View */,
 				1B02F11A1C2583430012490A /* ViewController */,
@@ -126,6 +137,9 @@
 				1B02F10C1C2582050012490A /* Info.plist */,
 				1B02F0FC1C2582050012490A /* main.m */,
 				1B02F11C1C2586050012490A /* PrefixHeader.pch */,
+				1B02F1041C2582050012490A /* Main.storyboard */,
+				1B02F1071C2582050012490A /* Assets.xcassets */,
+				1B02F1091C2582050012490A /* LaunchScreen.storyboard */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -180,16 +194,6 @@
 			path = NetManager;
 			sourceTree = "<group>";
 		};
-		1B02F1171C2583430012490A /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				1B02F1041C2582050012490A /* Main.storyboard */,
-				1B02F1071C2582050012490A /* Assets.xcassets */,
-				1B02F1091C2582050012490A /* LaunchScreen.storyboard */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
 		1B02F1181C2583430012490A /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
@@ -211,6 +215,14 @@
 				1B02F1021C2582050012490A /* ViewController.m */,
 				1B02F1231C2587370012490A /* JFBaseViewController.h */,
 				1B02F1241C2587370012490A /* JFBaseViewController.m */,
+				1B2CC4F71C26716200BFD449 /* JFCustomTabBarViewController.h */,
+				1B2CC4F81C26716200BFD449 /* JFCustomTabBarViewController.m */,
+				1B2CC4FA1C267BE600BFD449 /* JFMasonryLayoutViewController.h */,
+				1B2CC4FB1C267BE600BFD449 /* JFMasonryLayoutViewController.m */,
+				1B2CC4FD1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.h */,
+				1B2CC4FE1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m */,
+				1B2CC5001C267E9400BFD449 /* JFBlocksKitViewController.h */,
+				1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -362,11 +374,15 @@
 				1B02F0FD1C2582050012490A /* main.m in Sources */,
 				1B02F1251C2587370012490A /* JFBaseViewController.m in Sources */,
 				1B02F1331C2588C50012490A /* AppDelegate+JFCategory.m in Sources */,
+				1B2CC4FF1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m in Sources */,
+				1B2CC5021C267E9400BFD449 /* JFBlocksKitViewController.m in Sources */,
 				1B02F13A1C258D6C0012490A /* JFNewsNetManager.m in Sources */,
 				1B02F12B1C2588040012490A /* JFBaseModel.m in Sources */,
 				1B02F12E1C2588200012490A /* JFFactory.m in Sources */,
+				1B2CC4FC1C267BE600BFD449 /* JFMasonryLayoutViewController.m in Sources */,
 				1B02F1371C258B470012490A /* NSObject+JFNetWork.m in Sources */,
 				1B02F1221C2586F90012490A /* JFBaseViewModel.m in Sources */,
+				1B2CC4F91C26716200BFD449 /* JFCustomTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,7 +396,6 @@
 				1B4D0AB31C2593D600EF3FFE /* zh-Hans */,
 			);
 			name = Main.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 		1B02F1091C2582050012490A /* LaunchScreen.storyboard */ = {
@@ -390,7 +405,6 @@
 				1B4D0AB41C2593D600EF3FFE /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

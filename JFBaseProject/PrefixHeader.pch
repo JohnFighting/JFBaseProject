@@ -40,7 +40,9 @@
 //......
 
 #import <Masonry.h>
+/** 改写NS开头的类的target+selector或 委托模式 */
 #import <BlocksKit.h>
+/** 改写UI开头的类的target+selector或 委托模式 */
 #import <BlocksKit+UIKit.h>
 
 #endif /* PrefixHeader_pch */
