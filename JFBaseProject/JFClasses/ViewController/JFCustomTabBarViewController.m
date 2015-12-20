@@ -78,5 +78,20 @@
     [super viewDidLoad];
     self.tabBar.hidden = YES;
     self.customTBView.hidden = NO;
+    
+    UILabel *label = [[UILabel alloc]initWithFrame:CGRectMake(20, 180, 200, 40)];
+    [self.view addSubview:label];
+    label.font = [UIFont systemFontOfSize:35];
+    label.textColor = [UIColor blackColor];
+    //从File.strings文件中, 获取hello 这个key所对应的值, 把值显示在标签中, 根据中英文环境, 来选择不同的文件..
+    label.text = NSLocalizedStringFromTable(@"hello", @"File", nil);
+    //特殊文件名: Localizable.strings --> 有优化
+    label.text = NSLocalizedString(@"name", nil);
+    //定义国际化图片: 两张图片, 中文环境显示A, 英文环境显示B
+#warning 如果安装了KSImage那个插件, imageName方法将不出现代码提示
+    NSString *imageName = NSLocalizedString(@"imageName", nil);
+    UIImage *img = [UIImage imageNamed:imageName];
+    
+    //国际化应用程序的桌面名称, 国际化info.plist文件, 新建一个InfoPlist.strings文件
 }
 @end

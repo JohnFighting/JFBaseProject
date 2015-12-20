@@ -65,7 +65,7 @@
         <!--Item-->
         <scene sceneID="aqy-fB-agy">
             <objects>
-                <viewController id="ba4-aF-goe" sceneMemberID="viewController">
+                <viewController id="ba4-aF-goe" customClass="JFRefreshViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="yRd-gL-PQo"/>
                         <viewControllerLayoutGuide type="bottom" id="oKp-Oq-mEJ"/>

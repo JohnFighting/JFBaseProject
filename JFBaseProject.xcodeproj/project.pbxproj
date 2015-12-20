@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1B02F0FD1C2582050012490A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F0FC1C2582050012490A /* main.m */; };
 		1B02F1001C2582050012490A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F0FF1C2582050012490A /* AppDelegate.m */; };
-		1B02F1031C2582050012490A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1021C2582050012490A /* ViewController.m */; };
 		1B02F1061C2582050012490A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B02F1041C2582050012490A /* Main.storyboard */; };
 		1B02F1081C2582050012490A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B02F1071C2582050012490A /* Assets.xcassets */; };
 		1B02F10B1C2582050012490A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B02F1091C2582050012490A /* LaunchScreen.storyboard */; };
@@ -25,6 +24,14 @@
 		1B2CC4FC1C267BE600BFD449 /* JFMasonryLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC4FB1C267BE600BFD449 /* JFMasonryLayoutViewController.m */; };
 		1B2CC4FF1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC4FE1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m */; };
 		1B2CC5021C267E9400BFD449 /* JFBlocksKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */; };
+		1B586ABA1C26E48200BB038C /* UIScrollView+JFRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B586AB91C26E48200BB038C /* UIScrollView+JFRefresh.m */; };
+		1B586ABD1C26E55100BB038C /* JFRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B586ABC1C26E55100BB038C /* JFRefreshViewController.m */; };
+		1B586AC91C26E71C00BB038C /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B586ACB1C26E71C00BB038C /* File.strings */; };
+		1B586ACE1C26E72300BB038C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B586AD01C26E72300BB038C /* InfoPlist.strings */; };
+		1B586AD31C26E72800BB038C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B586AD51C26E72800BB038C /* Localizable.strings */; };
+		1B586ADD1C26E8AA00BB038C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B586ADC1C26E8AA00BB038C /* Info.plist */; };
+		1B9F365F1C26E207000C398D /* lingsheng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F365D1C26E207000C398D /* lingsheng.mp3 */; };
+		1B9F36601C26E207000C398D /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F365E1C26E207000C398D /* song.mp3 */; };
 		5DB1F46ABCFC9FE0F2C1725C /* libPods-JFBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09FB976F33649F5EB433BA /* libPods-JFBaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -33,12 +40,9 @@
 		1B02F0FC1C2582050012490A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B02F0FE1C2582050012490A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B02F0FF1C2582050012490A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B02F1011C2582050012490A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = JFBaseProject/ViewController.h; sourceTree = SOURCE_ROOT; };
-		1B02F1021C2582050012490A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = JFBaseProject/ViewController.m; sourceTree = SOURCE_ROOT; };
 		1B02F1051C2582050012490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B02F1071C2582050012490A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B02F10A1C2582050012490A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1B02F10C1C2582050012490A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B02F11C1C2586050012490A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		1B02F1201C2586F90012490A /* JFBaseViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBaseViewModel.h; sourceTree = "<group>"; };
 		1B02F1211C2586F90012490A /* JFBaseViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBaseViewModel.m; sourceTree = "<group>"; };
@@ -69,6 +73,22 @@
 		1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBlocksKitViewController.m; sourceTree = "<group>"; };
 		1B4D0AB31C2593D600EF3FFE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		1B4D0AB41C2593D600EF3FFE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1B586AB81C26E48200BB038C /* UIScrollView+JFRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JFRefresh.h"; sourceTree = "<group>"; };
+		1B586AB91C26E48200BB038C /* UIScrollView+JFRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JFRefresh.m"; sourceTree = "<group>"; };
+		1B586ABB1C26E55100BB038C /* JFRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRefreshViewController.h; sourceTree = "<group>"; };
+		1B586ABC1C26E55100BB038C /* JFRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRefreshViewController.m; sourceTree = "<group>"; };
+		1B586ACA1C26E71C00BB038C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/File.strings; sourceTree = "<group>"; };
+		1B586ACC1C26E71D00BB038C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
+		1B586ACD1C26E71E00BB038C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
+		1B586ACF1C26E72300BB038C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B586AD11C26E72400BB038C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1B586AD21C26E72500BB038C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1B586AD41C26E72800BB038C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1B586AD61C26E72900BB038C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1B586AD71C26E72A00BB038C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1B586ADC1C26E8AA00BB038C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9F365D1C26E207000C398D /* lingsheng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lingsheng.mp3; sourceTree = "<group>"; };
+		1B9F365E1C26E207000C398D /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
 		3184BA69CD57946012E0D84A /* Pods-JFBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		84D37E2498CDCA709BCC4DFC /* Pods-JFBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		9C09FB976F33649F5EB433BA /* libPods-JFBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,17 +135,8 @@
 		1B02F0FA1C2582050012490A /* JFBaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				1B02F0FE1C2582050012490A /* AppDelegate.h */,
-				1B02F0FF1C2582050012490A /* AppDelegate.m */,
-				1B02F1121C2583430012490A /* Category */,
-				1B02F1131C2583430012490A /* Define */,
-				1B02F1141C2583430012490A /* Factory */,
-				1B02F1151C2583430012490A /* Model */,
-				1B02F1161C2583430012490A /* NetManager */,
-				1B02F1181C2583430012490A /* Vendor */,
-				1B02F1191C2583430012490A /* View */,
-				1B02F11A1C2583430012490A /* ViewController */,
-				1B02F11B1C2583430012490A /* ViewModel */,
+				1B280E3C1C26DE9600BE59DC /* JFClasses */,
+				1B280E3D1C26E0FB00BE59DC /* JFResources */,
 				1B02F0FB1C2582050012490A /* Supporting Files */,
 			);
 			path = JFBaseProject;
@@ -134,7 +145,7 @@
 		1B02F0FB1C2582050012490A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1B02F10C1C2582050012490A /* Info.plist */,
+				1B586ADC1C26E8AA00BB038C /* Info.plist */,
 				1B02F0FC1C2582050012490A /* main.m */,
 				1B02F11C1C2586050012490A /* PrefixHeader.pch */,
 				1B02F1041C2582050012490A /* Main.storyboard */,
@@ -151,6 +162,8 @@
 				1B02F1321C2588C50012490A /* AppDelegate+JFCategory.m */,
 				1B02F1351C258B470012490A /* NSObject+JFNetWork.h */,
 				1B02F1361C258B470012490A /* NSObject+JFNetWork.m */,
+				1B586AB81C26E48200BB038C /* UIScrollView+JFRefresh.h */,
+				1B586AB91C26E48200BB038C /* UIScrollView+JFRefresh.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -211,8 +224,6 @@
 		1B02F11A1C2583430012490A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1B02F1011C2582050012490A /* ViewController.h */,
-				1B02F1021C2582050012490A /* ViewController.m */,
 				1B02F1231C2587370012490A /* JFBaseViewController.h */,
 				1B02F1241C2587370012490A /* JFBaseViewController.m */,
 				1B2CC4F71C26716200BFD449 /* JFCustomTabBarViewController.h */,
@@ -223,6 +234,8 @@
 				1B2CC4FE1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m */,
 				1B2CC5001C267E9400BFD449 /* JFBlocksKitViewController.h */,
 				1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */,
+				1B586ABB1C26E55100BB038C /* JFRefreshViewController.h */,
+				1B586ABC1C26E55100BB038C /* JFRefreshViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -234,6 +247,76 @@
 				1B02F1211C2586F90012490A /* JFBaseViewModel.m */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1B280E3C1C26DE9600BE59DC /* JFClasses */ = {
+			isa = PBXGroup;
+			children = (
+				1B02F0FE1C2582050012490A /* AppDelegate.h */,
+				1B02F0FF1C2582050012490A /* AppDelegate.m */,
+				1B02F1121C2583430012490A /* Category */,
+				1B02F1131C2583430012490A /* Define */,
+				1B02F1141C2583430012490A /* Factory */,
+				1B02F1151C2583430012490A /* Model */,
+				1B02F1161C2583430012490A /* NetManager */,
+				1B02F1181C2583430012490A /* Vendor */,
+				1B02F1191C2583430012490A /* View */,
+				1B02F11A1C2583430012490A /* ViewController */,
+				1B02F11B1C2583430012490A /* ViewModel */,
+			);
+			path = JFClasses;
+			sourceTree = "<group>";
+		};
+		1B280E3D1C26E0FB00BE59DC /* JFResources */ = {
+			isa = PBXGroup;
+			children = (
+				1B586AC21C26E6DE00BB038C /* JFStrings */,
+				1B280E3E1C26E0FB00BE59DC /* JFAudios */,
+				1B280E3F1C26E0FB00BE59DC /* JFImages */,
+				1B280E401C26E0FB00BE59DC /* JFPlists */,
+				1B280E411C26E0FB00BE59DC /* JFVedios */,
+			);
+			path = JFResources;
+			sourceTree = "<group>";
+		};
+		1B280E3E1C26E0FB00BE59DC /* JFAudios */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F365D1C26E207000C398D /* lingsheng.mp3 */,
+				1B9F365E1C26E207000C398D /* song.mp3 */,
+			);
+			path = JFAudios;
+			sourceTree = "<group>";
+		};
+		1B280E3F1C26E0FB00BE59DC /* JFImages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JFImages;
+			sourceTree = "<group>";
+		};
+		1B280E401C26E0FB00BE59DC /* JFPlists */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JFPlists;
+			sourceTree = "<group>";
+		};
+		1B280E411C26E0FB00BE59DC /* JFVedios */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = JFVedios;
+			sourceTree = "<group>";
+		};
+		1B586AC21C26E6DE00BB038C /* JFStrings */ = {
+			isa = PBXGroup;
+			children = (
+				1B586ACB1C26E71C00BB038C /* File.strings */,
+				1B586AD01C26E72300BB038C /* InfoPlist.strings */,
+				1B586AD51C26E72800BB038C /* Localizable.strings */,
+			);
+			path = JFStrings;
 			sourceTree = "<group>";
 		};
 		5D3C636E05FEC76E7E94C5AE /* Pods */ = {
@@ -291,6 +374,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 1B02F0EF1C2582050012490A;
 			productRefGroup = 1B02F0F91C2582050012490A /* Products */;
@@ -308,7 +392,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B02F10B1C2582050012490A /* LaunchScreen.storyboard in Resources */,
+				1B586ACE1C26E72300BB038C /* InfoPlist.strings in Resources */,
+				1B586ADD1C26E8AA00BB038C /* Info.plist in Resources */,
+				1B9F36601C26E207000C398D /* song.mp3 in Resources */,
+				1B586AC91C26E71C00BB038C /* File.strings in Resources */,
 				1B02F1081C2582050012490A /* Assets.xcassets in Resources */,
+				1B586AD31C26E72800BB038C /* Localizable.strings in Resources */,
+				1B9F365F1C26E207000C398D /* lingsheng.mp3 in Resources */,
 				1B02F1061C2582050012490A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,14 +459,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B02F1281C2587950012490A /* JFBaseNetManager.m in Sources */,
-				1B02F1031C2582050012490A /* ViewController.m in Sources */,
 				1B02F1001C2582050012490A /* AppDelegate.m in Sources */,
+				1B586ABD1C26E55100BB038C /* JFRefreshViewController.m in Sources */,
 				1B02F0FD1C2582050012490A /* main.m in Sources */,
 				1B02F1251C2587370012490A /* JFBaseViewController.m in Sources */,
 				1B02F1331C2588C50012490A /* AppDelegate+JFCategory.m in Sources */,
 				1B2CC4FF1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m in Sources */,
 				1B2CC5021C267E9400BFD449 /* JFBlocksKitViewController.m in Sources */,
 				1B02F13A1C258D6C0012490A /* JFNewsNetManager.m in Sources */,
+				1B586ABA1C26E48200BB038C /* UIScrollView+JFRefresh.m in Sources */,
 				1B02F12B1C2588040012490A /* JFBaseModel.m in Sources */,
 				1B02F12E1C2588200012490A /* JFFactory.m in Sources */,
 				1B2CC4FC1C267BE600BFD449 /* JFMasonryLayoutViewController.m in Sources */,
@@ -405,6 +496,36 @@
 				1B4D0AB41C2593D600EF3FFE /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1B586ACB1C26E71C00BB038C /* File.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B586ACA1C26E71C00BB038C /* Base */,
+				1B586ACC1C26E71D00BB038C /* en */,
+				1B586ACD1C26E71E00BB038C /* zh-Hans */,
+			);
+			name = File.strings;
+			sourceTree = "<group>";
+		};
+		1B586AD01C26E72300BB038C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B586ACF1C26E72300BB038C /* Base */,
+				1B586AD11C26E72400BB038C /* en */,
+				1B586AD21C26E72500BB038C /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1B586AD51C26E72800BB038C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B586AD41C26E72800BB038C /* Base */,
+				1B586AD61C26E72900BB038C /* en */,
+				1B586AD71C26E72A00BB038C /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -497,6 +618,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = JFBaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.john.JFBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -510,6 +632,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = JFBaseProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.com.john.JFBaseProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";

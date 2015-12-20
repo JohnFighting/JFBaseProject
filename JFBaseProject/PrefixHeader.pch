@@ -32,7 +32,8 @@
 //#import <SDImageCache.h>
 
 //头部刷新
-#import <MJRefresh.h>
+//#import <MJRefresh.h>
+#import "UIScrollView+JFRefresh.h"
 
 /** 按照功能需求 可选 */
 //#import <FMDB.h>//数据库
