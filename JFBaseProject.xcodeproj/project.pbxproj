@@ -20,18 +20,13 @@
 		1B02F1331C2588C50012490A /* AppDelegate+JFCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1321C2588C50012490A /* AppDelegate+JFCategory.m */; };
 		1B02F1371C258B470012490A /* NSObject+JFNetWork.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1361C258B470012490A /* NSObject+JFNetWork.m */; };
 		1B02F13A1C258D6C0012490A /* JFNewsNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B02F1391C258D6C0012490A /* JFNewsNetManager.m */; };
-		1B2CC4F91C26716200BFD449 /* JFCustomTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC4F81C26716200BFD449 /* JFCustomTabBarViewController.m */; };
-		1B2CC4FC1C267BE600BFD449 /* JFMasonryLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC4FB1C267BE600BFD449 /* JFMasonryLayoutViewController.m */; };
-		1B2CC4FF1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC4FE1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m */; };
-		1B2CC5021C267E9400BFD449 /* JFBlocksKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */; };
-		1B586ABA1C26E48200BB038C /* UIScrollView+JFRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B586AB91C26E48200BB038C /* UIScrollView+JFRefresh.m */; };
-		1B586ABD1C26E55100BB038C /* JFRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B586ABC1C26E55100BB038C /* JFRefreshViewController.m */; };
 		1B586AC91C26E71C00BB038C /* File.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B586ACB1C26E71C00BB038C /* File.strings */; };
 		1B586ACE1C26E72300BB038C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B586AD01C26E72300BB038C /* InfoPlist.strings */; };
 		1B586AD31C26E72800BB038C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1B586AD51C26E72800BB038C /* Localizable.strings */; };
 		1B586ADD1C26E8AA00BB038C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1B586ADC1C26E8AA00BB038C /* Info.plist */; };
 		1B9F365F1C26E207000C398D /* lingsheng.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F365D1C26E207000C398D /* lingsheng.mp3 */; };
 		1B9F36601C26E207000C398D /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F365E1C26E207000C398D /* song.mp3 */; };
+		1BF282441C282FB8009371D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF282431C282FB8009371D4 /* ViewController.m */; };
 		5DB1F46ABCFC9FE0F2C1725C /* libPods-JFBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C09FB976F33649F5EB433BA /* libPods-JFBaseProject.a */; };
 /* End PBXBuildFile section */
 
@@ -63,20 +58,8 @@
 		1B02F1361C258B470012490A /* NSObject+JFNetWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JFNetWork.m"; sourceTree = "<group>"; };
 		1B02F1381C258D6C0012490A /* JFNewsNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFNewsNetManager.h; sourceTree = "<group>"; };
 		1B02F1391C258D6C0012490A /* JFNewsNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFNewsNetManager.m; sourceTree = "<group>"; };
-		1B2CC4F71C26716200BFD449 /* JFCustomTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFCustomTabBarViewController.h; sourceTree = "<group>"; };
-		1B2CC4F81C26716200BFD449 /* JFCustomTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFCustomTabBarViewController.m; sourceTree = "<group>"; };
-		1B2CC4FA1C267BE600BFD449 /* JFMasonryLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMasonryLayoutViewController.h; sourceTree = "<group>"; };
-		1B2CC4FB1C267BE600BFD449 /* JFMasonryLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMasonryLayoutViewController.m; sourceTree = "<group>"; };
-		1B2CC4FD1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFMasonryLayout_V2_ViewController.h; sourceTree = "<group>"; };
-		1B2CC4FE1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFMasonryLayout_V2_ViewController.m; sourceTree = "<group>"; };
-		1B2CC5001C267E9400BFD449 /* JFBlocksKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFBlocksKitViewController.h; sourceTree = "<group>"; };
-		1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFBlocksKitViewController.m; sourceTree = "<group>"; };
 		1B4D0AB31C2593D600EF3FFE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		1B4D0AB41C2593D600EF3FFE /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		1B586AB81C26E48200BB038C /* UIScrollView+JFRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JFRefresh.h"; sourceTree = "<group>"; };
-		1B586AB91C26E48200BB038C /* UIScrollView+JFRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JFRefresh.m"; sourceTree = "<group>"; };
-		1B586ABB1C26E55100BB038C /* JFRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFRefreshViewController.h; sourceTree = "<group>"; };
-		1B586ABC1C26E55100BB038C /* JFRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFRefreshViewController.m; sourceTree = "<group>"; };
 		1B586ACA1C26E71C00BB038C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/File.strings; sourceTree = "<group>"; };
 		1B586ACC1C26E71D00BB038C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/File.strings; sourceTree = "<group>"; };
 		1B586ACD1C26E71E00BB038C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/File.strings"; sourceTree = "<group>"; };
@@ -89,6 +72,8 @@
 		1B586ADC1C26E8AA00BB038C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B9F365D1C26E207000C398D /* lingsheng.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lingsheng.mp3; sourceTree = "<group>"; };
 		1B9F365E1C26E207000C398D /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		1BF282421C282FB8009371D4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1BF282431C282FB8009371D4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3184BA69CD57946012E0D84A /* Pods-JFBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		84D37E2498CDCA709BCC4DFC /* Pods-JFBaseProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JFBaseProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-JFBaseProject/Pods-JFBaseProject.release.xcconfig"; sourceTree = "<group>"; };
 		9C09FB976F33649F5EB433BA /* libPods-JFBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JFBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,8 +147,6 @@
 				1B02F1321C2588C50012490A /* AppDelegate+JFCategory.m */,
 				1B02F1351C258B470012490A /* NSObject+JFNetWork.h */,
 				1B02F1361C258B470012490A /* NSObject+JFNetWork.m */,
-				1B586AB81C26E48200BB038C /* UIScrollView+JFRefresh.h */,
-				1B586AB91C26E48200BB038C /* UIScrollView+JFRefresh.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -224,18 +207,10 @@
 		1B02F11A1C2583430012490A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				1BF282421C282FB8009371D4 /* ViewController.h */,
+				1BF282431C282FB8009371D4 /* ViewController.m */,
 				1B02F1231C2587370012490A /* JFBaseViewController.h */,
 				1B02F1241C2587370012490A /* JFBaseViewController.m */,
-				1B2CC4F71C26716200BFD449 /* JFCustomTabBarViewController.h */,
-				1B2CC4F81C26716200BFD449 /* JFCustomTabBarViewController.m */,
-				1B2CC4FA1C267BE600BFD449 /* JFMasonryLayoutViewController.h */,
-				1B2CC4FB1C267BE600BFD449 /* JFMasonryLayoutViewController.m */,
-				1B2CC4FD1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.h */,
-				1B2CC4FE1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m */,
-				1B2CC5001C267E9400BFD449 /* JFBlocksKitViewController.h */,
-				1B2CC5011C267E9400BFD449 /* JFBlocksKitViewController.m */,
-				1B586ABB1C26E55100BB038C /* JFRefreshViewController.h */,
-				1B586ABC1C26E55100BB038C /* JFRefreshViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -460,20 +435,15 @@
 			files = (
 				1B02F1281C2587950012490A /* JFBaseNetManager.m in Sources */,
 				1B02F1001C2582050012490A /* AppDelegate.m in Sources */,
-				1B586ABD1C26E55100BB038C /* JFRefreshViewController.m in Sources */,
 				1B02F0FD1C2582050012490A /* main.m in Sources */,
 				1B02F1251C2587370012490A /* JFBaseViewController.m in Sources */,
 				1B02F1331C2588C50012490A /* AppDelegate+JFCategory.m in Sources */,
-				1B2CC4FF1C267D7800BFD449 /* JFMasonryLayout_V2_ViewController.m in Sources */,
-				1B2CC5021C267E9400BFD449 /* JFBlocksKitViewController.m in Sources */,
+				1BF282441C282FB8009371D4 /* ViewController.m in Sources */,
 				1B02F13A1C258D6C0012490A /* JFNewsNetManager.m in Sources */,
-				1B586ABA1C26E48200BB038C /* UIScrollView+JFRefresh.m in Sources */,
 				1B02F12B1C2588040012490A /* JFBaseModel.m in Sources */,
 				1B02F12E1C2588200012490A /* JFFactory.m in Sources */,
-				1B2CC4FC1C267BE600BFD449 /* JFMasonryLayoutViewController.m in Sources */,
 				1B02F1371C258B470012490A /* NSObject+JFNetWork.m in Sources */,
 				1B02F1221C2586F90012490A /* JFBaseViewModel.m in Sources */,
-				1B2CC4F91C26716200BFD449 /* JFCustomTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -604,7 +574,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

@@ -10,8 +10,8 @@
 #import "NewsPath.h"
 
 @implementation JFNewsNetManager
-+(id)getNewsListWithStartIndex:(NSInteger)index completionHandle:(void (^)(id, NSError *))completionHandle{
-    NSString *path = [NSString stringWithFormat:kNewsPath, index];
++ (id)getNewsListWithStartIndex:(NSInteger)index completionHandle:(void (^)(id, NSError *))completionHandle{
+    NSString *path = [NSString stringWithFormat: kNewsPath, index];
     return [self GET:path parameters:nil completionHandle:^(id responseObj, NSError *error) {
         completionHandle(responseObj, error);
     }];

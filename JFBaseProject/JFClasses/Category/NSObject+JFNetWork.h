@@ -14,10 +14,12 @@
  Post: 传递大型数据, 传zip/图片/音乐...
  具体使用哪个请求: 由服务器人员规定
  */
+#define kCompletionHandle completionHandle:(void(^)(id model, NSError *error))completionHandle;
+
 @interface NSObject (JFNetWork)
 
-+(id)GET:(NSString *)path parameters:(NSDictionary *)params completionHandle:(void(^)(id responseObj, NSError *error))completionHandle;
++ (id)GET:(NSString *)path parameters:(NSDictionary *)params kCompletionHandle
 
-+(id)POST:(NSString *)path parameters:(NSDictionary *)params completionHandle:(void(^)(id responseObj, NSError *error))completionHandle;
++ (id)POST:(NSString *)path parameters:(NSDictionary *)params kCompletionHandle
 
 @end
